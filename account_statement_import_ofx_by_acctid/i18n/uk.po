@@ -12,3 +12,9 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_account_statement_import_ofx_by_acctid
 msgid "Import OFX Bank Statement by ACCTID"
 msgstr "Імпорт банківської виписки OFX за ACCTID"
+
+#. module: account_statement_import_ofx_by_acctid
+#: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__sanitized_acctid
+#: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_res_partner_bank__sanitized_acctid
+msgid "Sanitized OFX ACCTID"
+msgstr "Очищений OFX ACCTID"

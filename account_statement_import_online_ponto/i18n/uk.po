@@ -17,3 +17,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
 msgid "Client ID"
 msgstr "ID клієнта"
+
+#. module: account_statement_import_online_ponto
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
+msgid "Client Secret"
+msgstr "Секрет клієнта"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields.selection,name:account_statement_import_online_ponto.selection__online_bank_statement_provider__ponto_date_field__execution_date
+msgid "Execution Date"
+msgstr "Дата виконання"
+
+#. module: account_statement_import_online_ponto
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
+msgid "Ponto Config"
+msgstr "Конфігурація Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields.selection,name:account_statement_import_online_ponto.selection__online_bank_statement_provider__ponto_date_field__value_date
+msgid "Value Date"
+msgstr "Дата валютування"

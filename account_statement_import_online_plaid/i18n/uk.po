@@ -33,3 +33,13 @@ msgstr "Виробництво"
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_plaid.online_bank_statement_provider_form
 msgid "Secret Key"
 msgstr "Секретний ключ"
+
+#. module: account_statement_import_online_plaid
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_plaid.online_bank_statement_provider_form
+msgid "Plaid config"
+msgstr "Конфігурація Plaid"
+
+#. module: account_statement_import_online_plaid
+#: model:ir.model.fields.selection,name:account_statement_import_online_plaid.selection__online_bank_statement_provider__plaid_host__sandbox
+msgid "Sandbox"
+msgstr "Пісочниця"

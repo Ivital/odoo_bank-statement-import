@@ -22,3 +22,38 @@ msgstr "Ключ API"
 #: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_note
 msgid "Stripe Note"
 msgstr "Примітка Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "API base"
+msgstr "Базовий API"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Expand"
+msgstr "Розгорнути"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Statement Label"
+msgstr "Мітка виписки"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Statement Note"
+msgstr "Примітка виписки"
+
+#. module: account_statement_import_online_stripe
+#: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_expand
+msgid "Stripe Expand"
+msgstr "Розгортання Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_fee_note
+msgid "Stripe Fee Note"
+msgstr "Примітка про комісію Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_label
+msgid "Stripe Label"
+msgstr "Мітка Stripe"

@@ -24,3 +24,20 @@ msgstr "Назва партнера"
 #: code:addons/account_statement_import_camt/models/account_statement_import_camt_parser.py:0
 msgid "Reference"
 msgstr "Посилання"
+
+#. module: account_statement_import_camt
+#. odoo-python
+#: code:addons/account_statement_import_camt/models/account_statement_import_camt_parser.py:0
+msgid "Communication"
+msgstr "Комунікація"
+
+#. module: account_statement_import_camt
+#. odoo-python
+#: code:addons/account_statement_import_camt/models/account_statement_import_camt_parser.py:0
+msgid "Transaction Type"
+msgstr "Тип транзакції"
+
+#. module: account_statement_import_camt
+#: model_terms:ir.ui.view,arch_db:account_statement_import_camt.account_statement_import_view
+msgid "zipped CAMT"
+msgstr "архівований CAMT"

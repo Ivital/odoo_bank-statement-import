@@ -22,3 +22,19 @@ msgstr "ID клієнта"
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_paypal.online_bank_statement_provider_form
 msgid "Secret"
 msgstr "Секрет"
+
+#. module: account_statement_import_online_paypal
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_paypal.online_bank_statement_provider_form
+msgid "API base"
+msgstr "Базовий API"
+
+#. module: account_statement_import_online_paypal
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_paypal.online_bank_statement_provider_form
+msgid "Credentials"
+msgstr "Облікові дані"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Other"
+msgstr "Інше"

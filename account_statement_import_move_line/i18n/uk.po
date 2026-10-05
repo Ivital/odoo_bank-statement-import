@@ -54,3 +54,53 @@ msgstr "Рядки переміщення"
 #: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__target_move
 msgid "Target Moves"
 msgstr "Цільові переміщення"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields.selection,name:account_statement_import_move_line.selection__account_statement_line_create__target_move__posted
+msgid "All Posted Entries"
+msgstr "Усі проведені записи"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__statement_id
+msgid "Bank Statement"
+msgstr "Банківська виписка"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__journal_ids
+msgid "Journals Filter"
+msgstr "Фільтр журналів"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__invoice
+msgid "Linked to an Invoice or Refund"
+msgstr "Пов'язано з рахунком або поверненням"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__partner_id
+msgid "Partner Related"
+msgstr "Пов’язаний партнер"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Total Residual"
+msgstr "Загальний залишок"
+
+#. module: account_statement_import_move_line
+#: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__date_type
+msgid "Type of Date Filter"
+msgstr "Тип фільтра дати"

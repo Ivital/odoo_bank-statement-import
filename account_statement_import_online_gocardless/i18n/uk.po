@@ -37,3 +37,48 @@ msgstr "Провайдер"
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.online_bank_statement_provider_form
 msgid "Secret Key"
 msgstr "Секретний ключ"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields.selection,name:account_statement_import_online_gocardless.selection__online_bank_statement_provider__gocardless_date_type__bookingdate
+msgid "Booking Date"
+msgstr "Дата бронювання"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider__gocardless_token
+msgid "Gocardless Token"
+msgstr "Токен GoCardless"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_statement_import_online_gocardless
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.view_online_bank_statement_provider_existing_form
+msgid "New link"
+msgstr "Нове посилання"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider_existing__other_provider_id
+msgid "Other Provider"
+msgstr "Інший провайдер"
+
+#. module: account_statement_import_online_gocardless
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.view_online_bank_statement_provider_existing_form
+msgid "Reuse existing"
+msgstr "Повторно використати наявне"
+
+#. module: account_statement_import_online_gocardless
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.online_bank_statement_provider_form
+msgid "Secret ID"
+msgstr "Секретний ID"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields.selection,name:account_statement_import_online_gocardless.selection__online_bank_statement_provider__gocardless_date_type__valuedate
+msgid "Value Date"
+msgstr "Дата валютування"
