@@ -44,3 +44,955 @@ msgstr "Інше"
 #: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
 msgid "Fee for %s"
 msgstr "Комісія за %s"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "ACH funding for funds recovery from account balance"
+msgstr "Фінансування ACH для відновлення коштів із балансу рахунку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "ATM withdrawal"
+msgstr "Зняття в банкоматі"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Account hold for ACH deposit"
+msgstr "Утримання рахунку для депозиту ACH"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Account hold for open authorization"
+msgstr "Утримання рахунку для відкритої авторизації"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Account receivable for shipping"
+msgstr "Дебіторська заборгованість за доставку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Auto-sweep from account"
+msgstr "Автозачистка з рахунку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "AutoSweep"
+msgstr "Автозачистка"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "BML credit, transfer from BML"
+msgstr "Кредит BML, переказ із BML"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "BML withdrawal, transfer to BML"
+msgstr "Зняття BML, переказ до BML"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Balance manager account bonus"
+msgstr "Бонус балансу рахунку менеджера"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Bill pay transaction"
+msgstr "Транзакція оплати рахунку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Blocked payments"
+msgstr "Заблоковані платежі"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Bonus for first ACH use"
+msgstr "Бонус за перше використання ACH"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Buyer credit payment"
+msgstr "Кредитний платіж покупця"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Buyer credit payment withdrawal, transfer to BML"
+msgstr "Зняття платежу за кредитом покупця, переказ до BML"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Cancellation of hold for dispute resolution"
+msgstr "Скасування утримання для вирішення спору"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Charge-off adjustment"
+msgstr "Коригування списання"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Chargeback"
+msgstr "Повернення платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Chargeback cancellation"
+msgstr "Скасування повернення платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Chargeback processing fee"
+msgstr "Комісія за обробку повернення платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Chargeback re-presentment rejection"
+msgstr "Відхилення повторного подання повернення платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Chargeback reversal"
+msgstr "Сторно повернення платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Check withdrawal"
+msgstr "Зняття чеком"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Coupon redemption"
+msgstr "Погашення купона"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Credit card cash back bonus"
+msgstr "Бонус повернення коштів за кредитною карткою"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Credit card deposit for negative PayPal account balance"
+msgstr "Депозит кредитною карткою для покриття від’ємного балансу PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Credit card security charge refund"
+msgstr "Повернення збору безпеки кредитної картки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Currency conversion required to cover negative balance"
+msgstr "Для покриття від’ємного балансу потрібна конвертація валюти"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Debit card cash back bonus"
+msgstr "Бонус повернення коштів за дебетовою карткою"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Deferred disbursement, funds collected for disbursement"
+msgstr "Відкладена виплата, кошти зібрано для виплати"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Delayed disbursement, funds disbursed"
+msgstr "Відкладена виплата, кошти виплачено"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Direct payment API"
+msgstr "API прямого платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Display only transaction"
+msgstr "Показувати лише транзакцію"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Donation payment"
+msgstr "Благодійний платіж"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Electronic funds transfer (EFT)"
+msgstr "Електронний переказ коштів (EFT)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Failed to acquire token using Client ID and Secret!"
+msgstr "Не вдалося отримати токен за допомогою Client ID і Secret!"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid ""
+"Failed to resolve transaction %(first_transaction_id)s "
+"(%(first_transaction_date)s)"
+msgstr ""
+"Не вдалося визначити транзакцію %(first_transaction_id)s "
+"(%(first_transaction_date)s)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid ""
+"Failed to resolve transaction %(last_transaction_id)s "
+"(%(last_transaction_date)s)"
+msgstr ""
+"Не вдалося визначити транзакцію %(last_transaction_id)s "
+"(%(last_transaction_date)s)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Fee refund"
+msgstr "Повернення комісії"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Fee reversal"
+msgstr "Сторно комісії"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Foreign bank withdrawal fee"
+msgstr "Комісія за зняття в іноземному банку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Funds available"
+msgstr "Доступні кошти"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Funds not yet available"
+msgstr "Кошти ще недоступні"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Funds payable: PayPal-provided funds that must be paid back"
+msgstr "Кошти до сплати: надані PayPal кошти, які потрібно повернути"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Funds receivable: PayPal-provided funds that are being paid back"
+msgstr "Кошти до отримання: надані PayPal кошти, які повертаються"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General PayPal debit card transaction"
+msgstr "Загальна транзакція дебетової картки PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General PayPal-to-PayPal payment"
+msgstr "Загальний платіж PayPal-to-PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General account adjustment"
+msgstr "Загальне коригування рахунку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General adjustment without business-related event"
+msgstr "Загальне коригування без події, пов’язаної з господарською діяльністю"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General authorization"
+msgstr "Загальна авторизація"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General bonus"
+msgstr "Загальний бонус"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General buyer credit payment"
+msgstr "Загальний кредитний платіж покупця"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General credit card deposit"
+msgstr "Загальний депозит кредитною карткою"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General credit card withdrawal"
+msgstr "Загальне зняття з кредитної картки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General currency conversion"
+msgstr "Загальна конвертація валюти"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General dividend"
+msgstr "Загальні дивіденди"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General funding of PayPal account"
+msgstr "Загальне поповнення рахунку PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General hold"
+msgstr "Загальне утримання"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General hold release"
+msgstr "Вивільнення загального утримання"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General incentive or certificate redemption"
+msgstr "Загальне погашення заохочення або сертифіката"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General intra-account transfer"
+msgstr "Загальний внутрішньорахуночний переказ"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General non-payment fee"
+msgstr "Загальна комісія за несплату"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General reversal"
+msgstr "Загальне сторно"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General temporary hold"
+msgstr "Загальне тимчасове утримання"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General withdrawal from PayPal account"
+msgstr "Загальне зняття коштів з рахунку PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "General withdrawal to non-bank institution"
+msgstr "Загальне зняття коштів до небанківської установи"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Generic instrument-funded payment"
+msgstr "Платіж, профінансований загальним інструментом"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Generic instrument/Open Wallet reversals (buyer side)"
+msgstr ""
+"Сторнування загального інструмента/відкритого гаманця (сторона покупця)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Generic instrument/Open Wallet reversals (seller side)"
+msgstr ""
+"Сторнування загального інструмента/відкритого гаманця (сторона продавця)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Generic instrument/Open Wallet transaction"
+msgstr "Транзакція загального інструмента/відкритого гаманця"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Gift certificate expiration fee"
+msgstr "Комісія за закінчення строку подарункового сертифіката"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Gift certificate payment, purchase of gift certificate"
+msgstr "Платіж подарунковим сертифікатом, купівля подарункового сертифіката"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Gift certificate purchase"
+msgstr "Придбання подарункового сертифіката"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Gift certificate redemption"
+msgstr "Погашення подарункового сертифіката"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Hidden virtual PayPal debit card transaction"
+msgstr "Прихована віртуальна дебетова карткова транзакція PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Hold for dispute investigation"
+msgstr "Утримання для розслідування спору"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Incentive adjustment"
+msgstr "Коригування заохочення"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Instant payment review (IPR) reversal"
+msgstr "Сторно миттєвої перевірки платежу (IPR)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "International credit card withdrawal"
+msgstr "Міжнародне зняття з кредитної картки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Invalid JSON response from PayPal API."
+msgstr "Недійсна JSON-відповідь від API PayPal."
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Invalid token type!"
+msgstr "Недійсний тип токена!"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Invoice %s"
+msgstr "Рахунок %s"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "MAM reversal"
+msgstr "Сторно MAM"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Mass payment batch fee"
+msgstr "Комісія пакета масових платежів"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "MassPay payment"
+msgstr "Платіж MassPay"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "MassPay refund transaction"
+msgstr "Транзакція повернення MassPay"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "MassPay reversal transaction"
+msgstr "Транзакція сторно MassPay"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Merchant referral account bonus"
+msgstr "Бонус реферального рахунку продавця"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Mobile payment, made through a mobile phone"
+msgstr "Мобільний платіж, здійснений через мобільний телефон"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "No authentication specified!"
+msgstr "Автентифікацію не вказано!"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Non-reference credit payment"
+msgstr "Кредитний платіж без посилання"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Offers used as funding source"
+msgstr "Пропозиції, використані як джерело фінансування"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Partner fee"
+msgstr "Комісія партнера"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal App features are configured incorrectly!"
+msgstr "Функції застосунку PayPal налаштовано неправильно!"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal Checkout APIs"
+msgstr "API PayPal Checkout"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal Here payment"
+msgstr "Платіж PayPal Here"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid ""
+"PayPal allows retrieving transactions only up to 3 years in the past. Please"
+" import older transactions manually. See "
+"https://www.paypal.com/us/smarthelp/article/why-can't-i-access-transaction-"
+"history-greater-than-3-years-ts2241"
+msgstr ""
+"PayPal дозволяє отримувати транзакції лише за останні 3 роки. Імпортуйте "
+"старіші транзакції вручну. Див. "
+"https://www.paypal.com/us/smarthelp/article/why-can't-i-access-transaction-"
+"history-greater-than-3-years-ts2241"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal balance manager funding of PayPal account"
+msgstr "Фінансування рахунку PayPal через менеджер балансу PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal buyer credit payment funding"
+msgstr "Фінансування кредитного платежу покупця PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal buyer warranty bonus"
+msgstr "Гарантійний бонус покупця PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal debit authorization"
+msgstr "Авторизація дебету PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal debit card cash advance"
+msgstr "Готівковий аванс із дебетової картки PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "PayPal debit card withdrawal to ATM"
+msgstr "Зняття з дебетової картки PayPal у банкоматі"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid ""
+"PayPal protection bonus, payout for PayPal buyer protection, payout for full"
+" protection with PayPal buyer credit."
+msgstr ""
+"Бонус захисту PayPal, виплата за захист покупця PayPal, виплата за повний "
+"захист із кредитом покупця PayPal."
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment fee"
+msgstr "Комісія платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment hold"
+msgstr "Утримання платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment hold release"
+msgstr "Вивільнення утримання платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment refund, initiated by merchant"
+msgstr "Повернення платежу, ініційоване продавцем"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment reversal, initiated by PayPal"
+msgstr "Сторнування платежу, ініційоване PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment review hold"
+msgstr "Утримання платежу для перевірки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Payment review release"
+msgstr "Вивільнення утримання для перевірки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Points incentive redemption"
+msgstr "Погашення заохочувальних балів"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Postage payment to carrier"
+msgstr "Оплата поштових послуг перевізнику"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Pre-approved payment (BillUser API)"
+msgstr "Попередньо схвалений платіж (BillUser API)"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reauthorization"
+msgstr "Повторна авторизація"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Rebate or cash back reversal"
+msgstr "Сторно знижки або повернення коштів"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Rebate payments"
+msgstr "Виплати знижок"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Receivables financing - Applicable only in Brazil"
+msgstr ""
+"Фінансування дебіторської заборгованості — застосовується лише в Бразилії"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reimbursement of chargeback"
+msgstr "Відшкодування повернення платежу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reserve hold"
+msgstr "Резервне утримання"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reserve release"
+msgstr "Вивільнення резерву"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reversal of ACH deposit"
+msgstr "Сторно депозиту ACH"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reversal of ACH withdrawal transaction"
+msgstr "Сторнування транзакції зняття ACH"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reversal of debit card transaction"
+msgstr "Сторно транзакції дебетової картки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reversal of general account hold"
+msgstr "Сторно загального утримання рахунку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Reversal of points usage"
+msgstr "Сторно використання балів"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Settlement consolidation"
+msgstr "Консолідація розрахунків"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Store-to-store transfers"
+msgstr "Перекази між магазинами"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Subscription payment"
+msgstr "Платіж підписки"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Tax hold"
+msgstr "Утримання податку"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Tax withholding to IRS"
+msgstr "Утримання податку до IRS"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Temporary hold on available balance"
+msgstr "Тимчасове утримання доступного балансу"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Third-party auction payment"
+msgstr "Платіж стороннього аукціону"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Third-party payout"
+msgstr "Виплата третій стороні"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Third-party recoupment"
+msgstr "Стягнення третьою стороною"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Transaction fee for %s"
+msgstr "Комісія за транзакцію для %s"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Transfer of funds from payable"
+msgstr "Переказ коштів із кредиторської заборгованості"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Transfer to and from a credit-card-funded restricted balance"
+msgstr ""
+"Переказ до та з обмеженого балансу, профінансованого кредитною карткою"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Transfer to external GL entity"
+msgstr "Переказ до зовнішньої сутності ГК"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Unknown authentication specified!"
+msgstr "Вказано невідому автентифікацію!"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "User-initiated currency conversion"
+msgstr "Конвертація валюти, ініційована користувачем"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Virtual PayPal debit card transaction"
+msgstr "Віртуальна дебетова карткова транзакція PayPal"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Virtual terminal payment"
+msgstr "Платіж через віртуальний термінал"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Void of authorization"
+msgstr "Скасування авторизації"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Warranty fee for warranty purchase"
+msgstr "Гарантійний збір за придбання гарантії"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Website payments standard payment"
+msgstr "Стандартний платіж через вебсайт"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Website payments. Pro account monthly fee"
+msgstr "Платежі вебсайту. Щомісячна плата за Pro-рахунок"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Withdrawal to Hyperwallet"
+msgstr "Зняття до Hyperwallet"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid ""
+"Withdrawals initiated by user manually. Not related to automated scheduled "
+"withdrawals"
+msgstr ""
+"Зняття коштів, ініційовані користувачем вручну. Не пов’язані з автоматичними"
+" запланованими зняттями"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "WorldLink check withdrawal fee"
+msgstr "Комісія за зняття чека WorldLink"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "WorldLink withdrawal"
+msgstr "Зняття WorldLink"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "eBay auction payment"
+msgstr "Платіж аукціону eBay"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "eBay loyalty incentive"
+msgstr "Заохочення лояльності eBay"

@@ -31,3 +31,15 @@ msgstr ""
 "зберігається окремо, оскільки може відрізнятися від звичайного номера "
 "рахунку й використовується лише для зіставлення імпортованих банківських "
 "виписок."
+
+#. module: account_statement_import_ofx_by_acctid
+#. odoo-python
+#: code:addons/account_statement_import_ofx_by_acctid/wizards/account_statement_import.py:0
+msgid ""
+"The journal found for the file is not consistent with the selected journal. "
+"You should use the proper journal or use the generic button on the top of "
+"the Accounting Dashboard"
+msgstr ""
+"Журнал, знайдений для файла, не відповідає вибраному журналу. Використайте "
+"правильний журнал або загальну кнопку у верхній частині панелі "
+"бухгалтерського обліку."

@@ -133,3 +133,71 @@ msgstr "Пошук..."
 #: model:ir.model,name:account_statement_import_online_gocardless.model_online_bank_statement_provider_existing
 msgid "Wizard for reusing existing GoCardless provider"
 msgstr "Майстер повторного використання наявного постачальника GoCardless"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-javascript
+#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml:0
+msgid "Available countries:"
+msgstr "Доступні країни:"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid "Existing link"
+msgstr "Існуюче посилання"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-javascript
+#: code:addons/account_statement_import_online_gocardless/static/src/js/select_bank_widget.esm.js:0
+msgid "Gocardless selection"
+msgstr "Вибір GoCardless"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid "Incorrect country code or country not supported."
+msgstr "Неправильний код країни або країна не підтримується."
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid "Select Bank of your Account"
+msgstr "Виберіть банк вашого рахунку"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-javascript
+#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml:0
+msgid "Select Country to Filter"
+msgstr "Виберіть країну для фільтра"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid "To continue configure bank account on journal %s"
+msgstr "Щоб продовжити, налаштуйте банківський рахунок у журналі %s"
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid ""
+"You should renew the authorization process with your bank institution for "
+"GoCardless."
+msgstr ""
+"Потрібно поновити процес авторизації у вашій банківській установі для "
+"GoCardless."
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid "Your account number %(iban_number)s is successfully attached."
+msgstr "Номер вашого рахунку %(iban_number)s успішно прикріплено."
+
+#. module: account_statement_import_online_gocardless
+#. odoo-python
+#: code:addons/account_statement_import_online_gocardless/models/online_bank_statement_provider.py:0
+msgid ""
+"Your account number %(iban_number)s it's not in the IBAN account numbers "
+"found %(accounts_iban)s, please check"
+msgstr ""
+"Номер рахунку %(iban_number)s відсутній серед знайдених IBAN-рахунків "
+"%(accounts_iban)s, перевірте його"

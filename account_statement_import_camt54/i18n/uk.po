@@ -28,3 +28,33 @@ msgstr "Парсер CAMT імпорту банківської виписки"
 msgid "Generate balance line on total of bank statement import"
 msgstr ""
 "Створити балансувальний рядок на загальну суму імпорту банківської виписки"
+
+#. module: account_statement_import_camt54
+#. odoo-python
+#: code:addons/account_statement_import_camt54/models/parser.py:0
+msgid ""
+"Config parameter `qrr_partner_ref` is wrong.\n"
+"It must be in format `i[,n]` \n"
+"`i` and `n` must be integers.\n"
+"e.g. \"13,6\""
+msgstr ""
+"Параметр конфігурації `qrr_partner_ref` неправильний.\n"
+"Він має бути у форматі `i[,n]`\n"
+"`i` та `n` мають бути цілими числами.\n"
+"Напр. «13,6»"
+
+#. module: account_statement_import_camt54
+#. odoo-python
+#: code:addons/account_statement_import_camt54/models/parser.py:0
+msgid ""
+"Config parameter `qrr_partner_ref` is wrong.\n"
+"It must be in format `i[,n]` \n"
+"where `i` is the position of the first digit and\n"
+"`n` the number of digit in the reference, by default 6.\n"
+"e.g. \"13,6\""
+msgstr ""
+"Параметр конфігурації `qrr_partner_ref` неправильний.\n"
+"Він має бути у форматі `i[,n]` \n"
+"де `i` — позиція першої цифри, а\n"
+"`n` — кількість цифр у посиланні, за замовчуванням 6.\n"
+"Наприклад, \"13,6\""

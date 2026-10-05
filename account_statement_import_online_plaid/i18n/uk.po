@@ -58,3 +58,41 @@ msgstr "Синхронізувати з Plaid.com"
 #: model:ir.model,name:account_statement_import_online_plaid.model_plaid_interface
 msgid "Plaid Interface"
 msgstr "Інтерфейс Plaid"
+
+#. module: account_statement_import_online_plaid
+#. odoo-python
+#: code:addons/account_statement_import_online_plaid/models/online_bank_statement_provider_plaid.py:0
+msgid "Country code not found for the bank or the company..."
+msgstr "Не знайдено код країни для банку або компанії..."
+
+#. module: account_statement_import_online_plaid
+#. odoo-python
+#: code:addons/account_statement_import_online_plaid/models/plaid_interface.py:0
+msgid "Error getting access token: %s"
+msgstr "Помилка отримання токена доступу: %s"
+
+#. module: account_statement_import_online_plaid
+#. odoo-python
+#: code:addons/account_statement_import_online_plaid/models/plaid_interface.py:0
+msgid "Error getting client api: %s"
+msgstr "Помилка отримання API клієнта: %s"
+
+#. module: account_statement_import_online_plaid
+#. odoo-python
+#: code:addons/account_statement_import_online_plaid/models/plaid_interface.py:0
+msgid "Error getting link token: %s"
+msgstr "Помилка отримання токена посилання: %s"
+
+#. module: account_statement_import_online_plaid
+#. odoo-python
+#: code:addons/account_statement_import_online_plaid/models/plaid_interface.py:0
+msgid "Error getting transactions: %s"
+msgstr "Помилка отримання транзакцій: %s"
+
+#. module: account_statement_import_online_plaid
+#. odoo-python
+#: code:addons/account_statement_import_online_plaid/models/online_bank_statement_provider_plaid.py:0
+msgid "Please link your Plaid account first by clicking on 'Sync with Plaid'."
+msgstr ""
+"Спочатку пов’яжіть свій обліковий запис Plaid, натиснувши «Синхронізувати з "
+"Plaid»."

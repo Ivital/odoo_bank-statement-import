@@ -449,3 +449,81 @@ msgid ""
 msgstr ""
 "Часовий пояс для перетворення часових міток транзакцій перед збереженням у "
 "виписку."
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid "All lines passed filtering"
+msgstr "Усі рядки пройшли фільтрацію"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid ""
+"Failed to obtain statement data for period since {since} until {until}: "
+"{exception}. See server logs for more details."
+msgstr ""
+"Не вдалося отримати дані виписки за період від {since} до {until}: "
+"{exception}. Докладніше дивіться журнали сервера."
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid "Issue with Online Bank Statement self"
+msgstr "Проблема з власною онлайн-випискою банку"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/tests/test_account_bank_statement_import_online.py:0
+msgid "Names and dates for statements found: {}"
+msgstr "Знайдені назви та дати для виписок: {}"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/tests/test_account_bank_statement_import_online.py:0
+msgid "No statements found in journal"
+msgstr "У журналі виписок не знайдено"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid ""
+"Of %(lines_provided)s lines provided, %(before)s where before %(since)s, "
+"%(after)s where on or after %(until)sand %(duplicate)s where not unique."
+msgstr ""
+"Із %(lines_provided)s наданих рядків %(before)s були до %(since)s, %(after)s"
+" — на або після %(until)s, а %(duplicate)s — не унікальні."
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/account_journal.py:0
+msgid "Online (OCA)"
+msgstr "Онлайн (OCA)"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid ""
+"Online Bank Statement provider \"%(name)s\" failed to obtain statement data "
+"since %(since)s until %(until)s"
+msgstr ""
+"Провайдер онлайн-банківських виписок «%(name)s» не зміг отримати дані "
+"виписки від %(since)s до %(until)s"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid "Pulling online bank statements of: %(provider_names)s"
+msgstr "Отримання онлайн-банківських виписок від: %(provider_names)s"
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid "Scheduled pull of online bank statements complete."
+msgstr "Заплановане отримання онлайн-банківських виписок завершено."
+
+#. module: account_statement_import_online
+#. odoo-python
+#: code:addons/account_statement_import_online/models/online_bank_statement_provider.py:0
+msgid "Scheduled pull of online bank statements..."
+msgstr "Заплановане отримання онлайн-банківських виписок..."

@@ -160,3 +160,15 @@ msgstr "Вибрані рядки переміщень для створення
 #: model:ir.model,name:account_statement_import_move_line.model_account_statement_line_create
 msgid "Wizard to create statement lines"
 msgstr "Майстер створення рядків виписки"
+
+#. module: account_statement_import_move_line
+#. odoo-python
+#: code:addons/account_statement_import_move_line/wizards/account_statement_line_create.py:0
+msgid "%(journal_code)s Statement %(date)s"
+msgstr "%(journal_code)s Виписка %(date)s"
+
+#. module: account_statement_import_move_line
+#. odoo-python
+#: code:addons/account_statement_import_move_line/wizards/account_statement_line_create.py:0
+msgid "Select Move Lines to Create Statement"
+msgstr "Виберіть рядки переміщення для створення виписки"

@@ -41,3 +41,15 @@ msgstr "Тип транзакції"
 #: model_terms:ir.ui.view,arch_db:account_statement_import_camt.account_statement_import_view
 msgid "zipped CAMT"
 msgstr "архівований CAMT"
+
+#. module: account_statement_import_camt
+#. odoo-python
+#: code:addons/account_statement_import_camt/models/account_statement_import_camt_parser.py:0
+msgid "Partner Account Number"
+msgstr "Номер рахунку партнера"
+
+#. module: account_statement_import_camt
+#. odoo-python
+#: code:addons/account_statement_import_camt/models/account_statement_import_camt_parser.py:0
+msgid "Transaction Date"
+msgstr "Дата транзакції"
