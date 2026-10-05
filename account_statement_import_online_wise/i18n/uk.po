@@ -52,3 +52,13 @@ msgstr "Відкритий ключ"
 #: model:ir.model.fields,field_description:account_statement_import_online_wise.field_online_bank_statement_provider__wise_profile
 msgid "Wise Profile"
 msgstr "Профіль Wise"
+
+#. module: account_statement_import_online_wise
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_wise.online_bank_statement_provider_form
+msgid "Strong Customer Authentication"
+msgstr "Посилена автентифікація клієнта"
+
+#. module: account_statement_import_online_wise
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_wise.online_bank_statement_provider_form
+msgid "Wise Configuration"
+msgstr "Конфігурація Wise"

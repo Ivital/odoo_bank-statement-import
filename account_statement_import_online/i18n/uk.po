@@ -297,3 +297,113 @@ msgstr "Тиждень"
 #: model:ir.model.fields.selection,name:account_statement_import_online.selection__online_bank_statement_provider__interval_type__weeks
 msgid "Week(s)"
 msgstr "Тиждень(тижні)"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__certificate_chain
+msgid "Certificate Chain"
+msgstr "Ланцюжок сертифікатів"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__certificate_private_key
+msgid "Certificate Private Key"
+msgstr "Приватний ключ сертифіката"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__certificate_public_key
+msgid "Certificate Public Key"
+msgstr "Відкритий ключ сертифіката"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__company_id
+msgid "Company related to this journal"
+msgstr "Компанія, пов'язана з цим журналом"
+
+#. module: account_statement_import_online
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_pull_wizard_form
+msgid "Fetch and display transaction data (for debug purposes)"
+msgstr "Отримати та показати дані транзакцій (для налагодження)"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_statement_import_online
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_pull_wizard_form
+msgid "Import Transactions"
+msgstr "Імпортувати транзакції"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__last_successful_run
+msgid "Last successful pull"
+msgstr "Останнє успішне отримання"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__next_run
+msgid "Next scheduled pull"
+msgstr "Наступне заплановане отримання"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_statement_import_online
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online.view_account_journal_form
+msgid "Online Bank Statements (OCA)"
+msgstr "Онлайн-банківські виписки (OCA)"
+
+#. module: account_statement_import_online
+#: model:ir.actions.act_window,name:account_statement_import_online.action_online_bank_statements_pull_wizard
+msgid "Online Bank Statements Pull Wizard"
+msgstr "Майстер отримання онлайн-банківських виписок"
+
+#. module: account_statement_import_online
+#: model:ir.actions.act_window,name:account_statement_import_online.online_bank_statement_pull_debug_action
+msgid "Online bank statements - Debug"
+msgstr "Онлайн-банківські виписки — налагодження"
+
+#. module: account_statement_import_online
+#: model:ir.actions.server,name:account_statement_import_online.ir_cron_account_pull_online_bank_statements_ir_actions_server
+msgid "Pull Online Bank Statements"
+msgstr "Отримати онлайн-банківські виписки"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__account_number
+msgid "Sanitized Account Number"
+msgstr "Очищений номер рахунку"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__interval_number
+msgid "Scheduled update interval"
+msgstr "Запланований інтервал оновлення"
+
+#. module: account_statement_import_online
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online.online_bank_statement_pull_wizard_form
+msgid "Show Transaction Data"
+msgstr "Показувати дані транзакції"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_account_journal__online_bank_statement_provider_id
+msgid "Statement Provider"
+msgstr "Провайдер виписки"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,field_description:account_statement_import_online.field_online_bank_statement_provider__statement_creation_mode
+msgid "Transactions interval to obtain"
+msgstr "Інтервал транзакцій для отримання"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

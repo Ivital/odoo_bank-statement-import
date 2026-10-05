@@ -82,3 +82,43 @@ msgstr "Секретний ID"
 #: model:ir.model.fields.selection,name:account_statement_import_online_gocardless.selection__online_bank_statement_provider__gocardless_date_type__valuedate
 msgid "Value Date"
 msgstr "Дата валютування"
+
+#. module: account_statement_import_online_gocardless
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.view_online_bank_statement_provider_existing_form
+msgid ""
+"<i class=\"fa fa-info-circle\"/> There's already another journal from the "
+"same bank institution linked with GoCardless. Do you want to reuse the "
+"existing credentials or create new ones?"
+msgstr ""
+"<i class=\"fa fa-info-circle\"/> Уже є інший журнал тієї самої банківської "
+"установи, пов’язаний із GoCardless. Використати наявні облікові дані чи "
+"створити нові?"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider__gocardless_date_type
+msgid "Date type for GoCardless Import"
+msgstr "Тип дати для імпорту GoCardless"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider__gocardless_account_id
+msgid "Gocardless Account"
+msgstr "Обліковий запис GoCardless"
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model.fields,field_description:account_statement_import_online_gocardless.field_online_bank_statement_provider__gocardless_country_id
+msgid "Gocardless Country"
+msgstr "Країна GoCardless"
+
+#. module: account_statement_import_online_gocardless
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.online_bank_statement_provider_form
+msgid "Select Bank Account Identifier"
+msgstr "Вибрати ідентифікатор банківського рахунка"
+
+#. module: account_statement_import_online_gocardless
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_gocardless.view_online_bank_statement_provider_existing_form
+msgid ""
+"Some banks only allow one credentials, while others work better with "
+"separate ones, so it's a matter of trying."
+msgstr ""
+"Деякі банки дозволяють лише один набір облікових даних, а інші краще "
+"працюють з окремими, тому варто спробувати."

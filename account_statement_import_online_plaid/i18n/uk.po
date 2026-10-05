@@ -43,3 +43,13 @@ msgstr "Конфігурація Plaid"
 #: model:ir.model.fields.selection,name:account_statement_import_online_plaid.selection__online_bank_statement_provider__plaid_host__sandbox
 msgid "Sandbox"
 msgstr "Пісочниця"
+
+#. module: account_statement_import_online_plaid
+#: model:ir.model.fields,field_description:account_statement_import_online_plaid.field_online_bank_statement_provider__plaid_access_token
+msgid "Plaid Access Token"
+msgstr "Токен доступу Plaid"
+
+#. module: account_statement_import_online_plaid
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_plaid.online_bank_statement_provider_form
+msgid "Sync with Plaid.com"
+msgstr "Синхронізувати з Plaid.com"

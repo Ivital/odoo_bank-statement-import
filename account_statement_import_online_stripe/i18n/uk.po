@@ -57,3 +57,43 @@ msgstr "Примітка про комісію Stripe"
 #: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_label
 msgid "Stripe Label"
 msgstr "Мітка Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Statement Fee Label"
+msgstr "Мітка комісії у виписці"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Statement Fee Note"
+msgstr "Примітка про комісію у виписці"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Statement Fee Reference"
+msgstr "Посилання на комісію виписки"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Statement Reference"
+msgstr "Посилання у виписці"
+
+#. module: account_statement_import_online_stripe
+#: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_fee_label
+msgid "Stripe Fee Label"
+msgstr "Мітка комісії Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_fee_reference
+msgid "Stripe Fee Reference"
+msgstr "Посилання на комісію Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model:ir.model.fields,field_description:account_statement_import_online_stripe.field_online_bank_statement_provider__stripe_reference
+msgid "Stripe Reference"
+msgstr "Посилання Stripe"
+
+#. module: account_statement_import_online_stripe
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_stripe.online_bank_statement_provider_form
+msgid "Stripe configuration"
+msgstr "Конфігурація Stripe"

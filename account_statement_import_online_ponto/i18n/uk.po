@@ -37,3 +37,13 @@ msgstr "Конфігурація Ponto"
 #: model:ir.model.fields.selection,name:account_statement_import_online_ponto.selection__online_bank_statement_provider__ponto_date_field__value_date
 msgid "Value Date"
 msgstr "Дата валютування"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_date_field
+msgid "Ponto Date Field"
+msgstr "Поле дати Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_last_identifier
+msgid "Ponto Last Identifier"
+msgstr "Останній ідентифікатор Ponto"

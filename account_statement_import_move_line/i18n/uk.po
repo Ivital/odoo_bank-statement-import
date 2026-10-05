@@ -104,3 +104,54 @@ msgstr "Загальний залишок"
 #: model:ir.model.fields,field_description:account_statement_import_move_line.field_account_statement_line_create__date_type
 msgid "Type of Date Filter"
 msgstr "Тип фільтра дати"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.view_bank_statement_form
+msgid "<span class=\"o_stat_text\">Import Journal Items</span>"
+msgstr "<span class=\"o_stat_text\">Імпорт записів журналу</span>"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Add All Move Lines"
+msgstr "Додати всі рядки руху"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Choose Move Lines Filter Options"
+msgstr "Виберіть параметри фільтра рядків переміщення"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid ""
+"Click on Add All Move Lines to auto-select the move lines matching the above"
+" criteria or click on Add an item to manually select the move lines filtered"
+" by the above criteria."
+msgstr ""
+"Натисніть «Додати всі рядки переміщень» для автоматичного вибору рядків за "
+"критеріями вище або «Додати елемент» для ручного вибору відфільтрованих "
+"рядків."
+
+#. module: account_statement_import_move_line
+#: model:ir.actions.act_window,name:account_statement_import_move_line.account_statement_line_create_action
+msgid "Create Lines from Move Lines"
+msgstr "Створити рядки з рядків переміщення"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Create Statement Lines"
+msgstr "Створити рядки виписки"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_journal_dashboard_kanban_view
+msgid "Import Journal Items"
+msgstr "Імпортувати журнальні записи"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Keep empty for using all journals"
+msgstr "Залиште порожнім, щоб використовувати всі журнали"
+
+#. module: account_statement_import_move_line
+#: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
+msgid "Selected Move Lines to Create Lines"
+msgstr "Вибрані рядки переміщень для створення рядків"
