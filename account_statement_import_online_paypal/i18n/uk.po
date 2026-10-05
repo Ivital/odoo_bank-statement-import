@@ -38,3 +38,9 @@ msgstr "Облікові дані"
 #: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
 msgid "Other"
 msgstr "Інше"
+
+#. module: account_statement_import_online_paypal
+#. odoo-python
+#: code:addons/account_statement_import_online_paypal/models/online_bank_statement_provider_paypal.py:0
+msgid "Fee for %s"
+msgstr "Комісія за %s"

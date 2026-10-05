@@ -23,3 +23,8 @@ msgstr "ID імпорту"
 #: model_terms:ir.ui.view,arch_db:account_statement_import_base.account_bank_statement_line_form
 msgid "Raw Data"
 msgstr "Сирі дані"
+
+#. module: account_statement_import_base
+#: model:ir.model.constraint,message:account_statement_import_base.constraint_account_bank_statement_line_unique_import_id
+msgid "A bank account transaction can be imported only once!"
+msgstr "Транзакцію банківського рахунку можна імпортувати лише один раз!"

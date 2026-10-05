@@ -325,3 +325,159 @@ msgstr "UTF-8 (з BOM)"
 #: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__transaction_id_column
 msgid "Unique transaction ID column"
 msgstr "Стовпець унікального ID транзакції"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__skip_empty_lines
+msgid "Allows to skip empty lines"
+msgstr "Дозволяє пропускати порожні рядки"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__balance_column
+msgid "Balance after transaction in journal's currency"
+msgstr "Сальдо після транзакції у валюті журналу"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model,name:account_statement_import_sheet_file.model_account_statement_import_sheet_mapping
+msgid "Bank Statement Import Sheet Mapping"
+msgstr "Зіставлення аркуша імпорту банківської виписки"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__offset_column
+msgid "Columns to ignore before starting to parse"
+msgstr "Стовпці, які слід ігнорувати перед початком розбору"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_credit_column
+msgid "Credit amount of transaction in journal's currency"
+msgstr "Кредитова сума транзакції у валюті журналу"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_debit_column
+msgid "Debit amount of transaction in journal's currency"
+msgstr "Дебетова сума транзакції у валюті журналу"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__currency_column
+msgid ""
+"In case statement is multi-currency, column to get currency of transaction "
+"from"
+msgstr ""
+"Для мультивалютної виписки — колонка, з якої отримувати валюту транзакції"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__original_currency_column
+msgid ""
+"In case statement provides original currency for transactions with automatic"
+" currency conversion, column to get original currency of transaction from"
+msgstr ""
+"Якщо виписка надає вихідну валюту для транзакцій з автоматичною конвертацією"
+" валюти, вкажіть стовпець, з якого слід отримувати вихідну валюту "
+"транзакції."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__original_amount_column
+msgid ""
+"In case statement provides original currency for transactions with automatic"
+" currency conversion, column to get original transaction amount in original "
+"transaction currency from"
+msgstr ""
+"Якщо виписка надає вихідну валюту для транзакцій з автоматичною "
+"конвертацією, вкажіть стовпець, з якого слід отримувати початкову суму "
+"транзакції в її вихідній валюті."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_inverse_sign
+msgid ""
+"In some cases such as in credit card statements the amounts are expressed in"
+" the inverse sign. By setting this flag during the upload the amounts will "
+"be inverted in sign."
+msgstr ""
+"У деяких випадках, наприклад у виписках за кредитними картками, суми "
+"подаються з протилежним знаком. Якщо встановити цей прапорець під час "
+"завантаження, знак сум буде інвертовано."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__bank_name_column
+msgid "Partner's bank"
+msgstr "Банк партнера"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__bank_account_column
+msgid "Partner's bank account"
+msgstr "Банківський рахунок партнера"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__footer_lines_skip_count
+msgid ""
+"Set the Footer lines number.Used in some csv/xlsx file that integrate meta "
+"data inlast lines."
+msgstr ""
+"Установіть кількість рядків нижнього колонтитула. Використовується в деяких "
+"CSV/XLSX-файлах із метаданими в останніх рядках."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__header_lines_skip_count
+msgid "Set the Header lines number."
+msgstr "Установіть кількість рядків заголовка."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_type
+msgid ""
+"Simple value: use igned amount in amount column\n"
+"Absolute Value: use a same column for debit and credit\n"
+"(absolute value + indicate sign)\n"
+"Distinct Credit/debit Column: use a distinct column for debit and credit"
+msgstr ""
+"Просте значення: використовувати знакову суму в колонці суми\n"
+"Абсолютне значення: використовувати одну колонку для дебету й кредиту\n"
+"(абсолютне значення + показувати знак)\n"
+"Окремі колонки кредиту/дебету: використовувати окремі колонки для дебету й кредиту"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__debit_credit_column
+msgid ""
+"Used if amount type is \"Absolute value\"\n"
+"Some statement formats use absolute amount value and indicate sign\n"
+"of the transaction by specifying if it was a debit or a credit one"
+msgstr ""
+"Використовується, якщо тип суми — «Абсолютне значення».\n"
+"Деякі формати виписок використовують абсолютне значення суми й указують знак транзакції, зазначаючи, чи була вона дебетовою або кредитовою."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_column
+msgid ""
+"Used if amount type is \"Simple value\" or \"Absolute value\"\n"
+"Amount of transaction in journal's currency\n"
+"Some statement formats use credit/debit columns"
+msgstr ""
+"Використовується, якщо тип суми — «Просте значення» або «Абсолютне значення».\n"
+"Сума транзакції у валюті журналу.\n"
+"Деякі формати виписок використовують стовпці кредиту/дебету."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__credit_value
+msgid "Value of debit/credit column that indicates if it's a credit"
+msgstr "Значення стовпця дебет/кредит, що вказує, чи це кредит"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__debit_value
+msgid "Value of debit/credit column that indicates if it's a debit"
+msgstr "Значення стовпця дебет/кредит, що вказує, чи це дебет"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__float_decimal_sep
+msgid ""
+"When the separator is 'none', the value will be shifted according to the "
+"currency decimals. For example, 12345 will be converted to 123.45"
+msgstr ""
+"Якщо роздільник — 'none', значення буде зміщено відповідно до кількості "
+"десяткових знаків валюти. Наприклад, 12345 буде перетворено на 123.45."
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,help:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__no_header
+msgid ""
+"When this occurs please indicate the column number in the Columns section "
+"instead of the column name, considering that the first column is 0"
+msgstr ""
+"У такому разі вкажіть у розділі «Стовпці» номер стовпця замість його назви, "
+"враховуючи, що перший стовпець має номер 0."

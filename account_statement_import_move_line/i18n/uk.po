@@ -155,3 +155,8 @@ msgstr "Залиште порожнім, щоб використовувати �
 #: model_terms:ir.ui.view,arch_db:account_statement_import_move_line.account_statement_line_create_view_form
 msgid "Selected Move Lines to Create Lines"
 msgstr "Вибрані рядки переміщень для створення рядків"
+
+#. module: account_statement_import_move_line
+#: model:ir.model,name:account_statement_import_move_line.model_account_statement_line_create
+msgid "Wizard to create statement lines"
+msgstr "Майстер створення рядків виписки"

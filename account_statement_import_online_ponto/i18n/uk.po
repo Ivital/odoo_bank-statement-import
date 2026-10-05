@@ -47,3 +47,17 @@ msgstr "Поле дати Ponto"
 #: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_last_identifier
 msgid "Ponto Last Identifier"
 msgstr "Останній ідентифікатор Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model,name:account_statement_import_online_ponto.model_ponto_interface
+msgid "Interface to all interactions with Ponto API"
+msgstr "Інтерфейс для всіх взаємодій із Ponto API"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,help:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_date_field
+msgid ""
+"Select the Ponto date field that will be used for the Odoo bank statement "
+"line date."
+msgstr ""
+"Виберіть поле дати Ponto, яке використовуватиметься як дата рядка "
+"банківської виписки Odoo."

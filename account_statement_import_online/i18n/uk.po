@@ -407,3 +407,45 @@ msgstr "Інтервал транзакцій для отримання"
 #: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__create_statement
+msgid ""
+"Create statements for the downloaded transactions automatically or not."
+msgstr ""
+"Визначає, чи створювати виписки для завантажених транзакцій автоматично."
+
+#. module: account_statement_import_online
+#: model:ir.model,name:account_statement_import_online.model_online_bank_statement_pull_debug
+msgid "Online Bank Statement Pull Debug Wizard"
+msgstr "Майстер налагодження онлайн-завантаження банківської виписки"
+
+#. module: account_statement_import_online
+#: model:ir.model,name:account_statement_import_online.model_online_bank_statement_pull_wizard
+msgid "Online Bank Statement Pull Wizard"
+msgstr "Майстер онлайн-завантаження банківської виписки"
+
+#. module: account_statement_import_online
+#: model:ir.model.constraint,message:account_statement_import_online.constraint_online_bank_statement_provider_journal_id_uniq
+msgid "Only one online banking statement provider per journal!"
+msgstr ""
+"Для журналу дозволено лише одного постачальника онлайн-банкінгових виписок!"
+
+#. module: account_statement_import_online
+#: model:ir.model.constraint,message:account_statement_import_online.constraint_online_bank_statement_provider_valid_interval_number
+msgid "Scheduled update interval must be greater than zero!"
+msgstr "Інтервал запланованого оновлення має бути більшим за нуль!"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__currency_id
+msgid "The currency used to enter statement"
+msgstr "Валюта, що використовується для введення виписки"
+
+#. module: account_statement_import_online
+#: model:ir.model.fields,help:account_statement_import_online.field_online_bank_statement_provider__tz
+msgid ""
+"Timezone to convert transaction timestamps to prior being saved into a "
+"statement."
+msgstr ""
+"Часовий пояс для перетворення часових міток транзакцій перед збереженням у "
+"виписку."

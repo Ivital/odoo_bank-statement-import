@@ -17,3 +17,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_statement_import_camt54.field_account_journal__transfer_line
 msgid "Add balance Line"
 msgstr "Додати рядок балансу"
+
+#. module: account_statement_import_camt54
+#: model:ir.model,name:account_statement_import_camt54.model_account_statement_import_camt_parser
+msgid "Account Bank Statement Import CAMT parser"
+msgstr "Парсер CAMT імпорту банківської виписки"
+
+#. module: account_statement_import_camt54
+#: model:ir.model.fields,help:account_statement_import_camt54.field_account_journal__transfer_line
+msgid "Generate balance line on total of bank statement import"
+msgstr ""
+"Створити балансувальний рядок на загальну суму імпорту банківської виписки"

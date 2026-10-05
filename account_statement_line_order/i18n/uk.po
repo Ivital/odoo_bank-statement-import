@@ -32,3 +32,10 @@ msgstr "Внутрішній індекс рядка виписки"
 #: model:ir.model.fields.selection,name:account_statement_line_order.selection__account_journal__statement_line_internal_index__date_statement_id_line_sequence_id
 msgid "Statement together (Date, Statement ID, Line sequence/ID)"
 msgstr "Виписка разом (дата, ID виписки, послідовність/ID рядка)"
+
+#. module: account_statement_line_order
+#: model:ir.model.fields,help:account_statement_line_order.field_account_journal__statement_line_internal_index
+msgid ""
+"Allow to select the computing method for the order sequence of the bank "
+"statement lines."
+msgstr "Дозволяє вибрати метод обчислення порядку рядків банківської виписки."

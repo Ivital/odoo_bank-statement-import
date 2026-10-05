@@ -122,3 +122,14 @@ msgid ""
 msgstr ""
 "Деякі банки дозволяють лише один набір облікових даних, а інші краще "
 "працюють з окремими, тому варто спробувати."
+
+#. module: account_statement_import_online_gocardless
+#. odoo-javascript
+#: code:addons/account_statement_import_online_gocardless/static/src/xml/select_bank_widget.xml:0
+msgid "Search..."
+msgstr "Пошук..."
+
+#. module: account_statement_import_online_gocardless
+#: model:ir.model,name:account_statement_import_online_gocardless.model_online_bank_statement_provider_existing
+msgid "Wizard for reusing existing GoCardless provider"
+msgstr "Майстер повторного використання наявного постачальника GoCardless"

@@ -53,3 +53,8 @@ msgstr "Токен доступу Plaid"
 #: model_terms:ir.ui.view,arch_db:account_statement_import_online_plaid.online_bank_statement_provider_form
 msgid "Sync with Plaid.com"
 msgstr "Синхронізувати з Plaid.com"
+
+#. module: account_statement_import_online_plaid
+#: model:ir.model,name:account_statement_import_online_plaid.model_plaid_interface
+msgid "Plaid Interface"
+msgstr "Інтерфейс Plaid"

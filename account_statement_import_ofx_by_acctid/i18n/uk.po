@@ -18,3 +18,16 @@ msgstr "Імпорт банківської виписки OFX за ACCTID"
 #: model:ir.model.fields,field_description:account_statement_import_ofx_by_acctid.field_res_partner_bank__sanitized_acctid
 msgid "Sanitized OFX ACCTID"
 msgstr "Очищений OFX ACCTID"
+
+#. module: account_statement_import_ofx_by_acctid
+#: model:ir.model.fields,help:account_statement_import_ofx_by_acctid.field_account_setup_bank_manual_config__acctid
+#: model:ir.model.fields,help:account_statement_import_ofx_by_acctid.field_res_partner_bank__acctid
+msgid ""
+"Technical account identifier (tag <ACCTID>) exactly as found in OFX files; "
+"stored separately because it can differ from the usual account number and is"
+" used only for matching imported bank statements."
+msgstr ""
+"Технічний ідентифікатор рахунку (тег <ACCTID>) точно як у файлах OFX; "
+"зберігається окремо, оскільки може відрізнятися від звичайного номера "
+"рахунку й використовується лише для зіставлення імпортованих банківських "
+"виписок."
